@@ -21,4 +21,8 @@ public class professor {
      private Date anoIngresso;
      private String formacao;
      
+     public professor() {
+        nomeProfessor = "Nobody";
+    }
+     
 }

@@ -107,5 +107,9 @@ public class Estudantes {
     public void setsituacao(String _situacao){
         situacao = _situacao;
     }  
+
+    void setNome(String marcos) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }

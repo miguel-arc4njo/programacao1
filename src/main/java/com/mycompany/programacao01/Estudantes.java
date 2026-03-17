@@ -36,11 +36,11 @@ public class Estudantes {
         return idade;
     }
    
-    public String getNome() {
+    public String getnomeAluno() {
         return nomeAluno;
     }
    
-    public void setNome(String _nome) {
+    public void setnomeAluno(String _nome) {
         nomeAluno = _nome;
     }
    

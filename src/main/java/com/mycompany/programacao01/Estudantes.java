@@ -11,7 +11,6 @@ import java.util.Date;
  * @author aluno
  */
 // ano = semestre
-
 public class Estudantes {
     private String nomeAluno;
     private Date datanascimento;
@@ -24,7 +23,7 @@ public class Estudantes {
     private String semestreIngresso;
     private String situacao;
     
- 
+ sout   
  
     public Estudantes() {
         nomeAluno = "Nobody";

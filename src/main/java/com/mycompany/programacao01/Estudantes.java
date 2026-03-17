@@ -73,7 +73,7 @@ public class Estudantes {
     }
    
     public void setmatricula(String _digito) {
-        matricula = _digito;
+        digito = _digito;
     }
    
     public String getEmail() {
@@ -97,7 +97,7 @@ public class Estudantes {
     }
      
     public void setnivelEnsino(String _nivelEnsino){
-     telefone = _nivelEnsino;
+     nivelEnsino = _nivelEnsino;
     }
     
     public String getsituacao(){

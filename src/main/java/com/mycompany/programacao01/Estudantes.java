@@ -18,10 +18,12 @@ public class Estudantes {
     private char genero;
     private String matricula;
     private String email;
+    private String nivelEnsino;
     private String telefone;
     private Date anoIngresso;
     private String semestreIngresso;
     private String situacao;
+    private String digito;
     
  
     public Estudantes() {

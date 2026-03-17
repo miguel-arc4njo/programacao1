@@ -20,8 +20,8 @@ public class Estudantes {
     private String email;
     private String nivelEnsino;
     private String telefone;
-    private Date anoIngresso;
-    private String semestreIngresso;
+    private int anoIngresso;
+    private int semestreIngresso;
     private String situacao;
     private String digito;
     
@@ -69,11 +69,11 @@ public class Estudantes {
     }
    
     public String getMatricula() {
-        return matricula;
+        return String.valueOf(anoIngresso)+String.valueOf(semestreIngresso)+digito;
     }
    
-    public void setmatricula(String _matricula) {
-        matricula = _matricula;
+    public void setmatricula(String _digito) {
+        matricula = _digito;
     }
    
     public String getEmail() {
@@ -84,5 +84,28 @@ public class Estudantes {
         email = _email;
     }
     
+    public String gettelefone() {
+        return telefone;
+    }
+    
+    public String setTelefone(String _telefone){
+        return telefone = _telefone;
+    }
+    
+     public String getnivelEnsino() {
+        return nivelEnsino;
+    }
+     
+    public void setnivelEnsino(String _nivelEnsino){
+     telefone = _nivelEnsino;
+    }
+    
+    public String getsituacao(){
+        return situacao;
+    }
+    
+    public void setsituacao(String _situacao){
+        situacao = _situacao;
+    }  
+    
 }
-

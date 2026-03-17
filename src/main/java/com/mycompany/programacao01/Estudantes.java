@@ -23,7 +23,6 @@ public class Estudantes {
     private String semestreIngresso;
     private String situacao;
     
- sout   
  
     public Estudantes() {
         nomeAluno = "Nobody";

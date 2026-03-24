@@ -8,6 +8,7 @@ package com.mycompany.programacao01;
  *
  * @author aluno
  */
+//QCHATOOO
 public class Disciplina {
     private String codigoDisciplina;
     private String nomeDisciplina;

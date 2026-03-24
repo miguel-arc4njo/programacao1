@@ -8,10 +8,15 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- *
+ *7
  * @author aluno
  */
 public class Turma {
+    
+    private String nome;
+    private int anoIngresso;
+    private String sala;
+    
     private Estudante estudante = new Estudante();
     private Professor professor = new Professor();
     private Disciplina disciplina = new Disciplina();
